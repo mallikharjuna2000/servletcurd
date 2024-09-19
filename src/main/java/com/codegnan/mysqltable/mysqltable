@@ -1,0 +1,9 @@
+CREATE TABLE emp (
+         id INT AUTO_INCREMENT PRIMARY KEY,
+         name VARCHAR(50),
+         dept VARCHAR(50)
+     );
+INSERT INTO emp (name, dept) VALUES ('Alice', 'HR');
+INSERT INTO emp (name, dept) VALUES ('Bob', 'IT');
+INSERT INTO emp (name, dept) VALUES ('Charlie', 'Finance');
+select*from emp;
